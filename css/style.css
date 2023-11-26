@@ -102,10 +102,7 @@
   z-index: 99;
   padding-top: 10px;
   }
-.contact-number-mobile{
- 
 
-}
 .navbar-brand {
   height: auto;
   transition: all 0.2s ease-in-out;
@@ -2024,4 +2021,15 @@ footer {
     section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover {
       padding: 35px 30px; }
   section.page-banner-section a {
-    display: none; }  }
+    display: none; } 
+
+   }
+@media (max-width: 500px) {
+  section.moving-services-section .moving-services-box .moving-services-post {
+    padding: 30px; }
+    section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover {
+      padding: 35px 30px; }
+  section.page-banner-section a {
+    display: none; } 
+    
+   }
